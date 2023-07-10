@@ -101,7 +101,7 @@ reveng.exe: no models found
 하지만 프로토콜에 따라 값을 Big endian으로 전송할 지 Little endian으로 전송할지가 다른 경우가 있다. 특히나 표준화되지 않은 통신인 경우 통신 패킷 구조에 따라 Big endian과 Little endian이 혼용되는 경우도 있다. 
 
 
-다음으로는 32비트 페이로드의 순서를 뒤바꾸어 
+다음으로는 32비트 페이로드의 순서를 뒤바꾸어 넣어본다(endianness 변경)
 
 ```plaintext
 
